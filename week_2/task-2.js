@@ -13,7 +13,7 @@ var middleNode = function(head) {
   let result;
   
   while(midle>0){
-    result = head.value;
+    result = head.val;
     head = head.next;
     midle--;
   }

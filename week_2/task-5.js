@@ -18,19 +18,3 @@ var deleteDuplicates = function(head) {
 
     return head;
 };
-
-let list = {
-    val: 1,
-    next: {
-      val: 2,
-      next: {
-        val: 2,
-        next: {
-          val: 4,
-          next: null
-        }
-      }
-    }
-  };
-
-console.log(deleteDuplicates(list))

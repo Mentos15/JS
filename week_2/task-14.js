@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/linked-list-cycle-ii/
+
 var detectCycle = function(head) {
   if(!head) return null;
   var obj = {};
@@ -16,20 +18,3 @@ var detectCycle = function(head) {
   }
   return null;
 };
-
-
-let list = {
-  val: 1,
-  next: {
-    val: 2,
-    next: {
-      val: 3,
-      next: {
-        val: 4,
-        next: null
-      }
-    }
-  }
-};
-
-console.log(detectCycle(list))

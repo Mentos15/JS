@@ -40,36 +40,3 @@ var mergeTwoLists = function(l1, l2) {
   }
   return head;
 };
-
-
-let list = {
-    val: 1,
-    next: {
-      val: 2,
-      next: {
-        val: 3,
-        next: {
-          val: 4,
-          next: null
-        }
-      }
-    }
-  };
-
-  let list2 = {
-    val: 1,
-    next: {
-      val: 1,
-      next: {
-        val: 2,
-        next: {
-          val: 3,
-          next: null
-        }
-      }
-    }
-  };
-
-
-
-console.log(mergeTwoLists(list,list2));
